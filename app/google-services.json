@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "564114486983",
+    "firebase_url": "https://island-grill.firebaseio.com",
+    "project_id": "island-grill",
+    "storage_bucket": "island-grill.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564114486983:android:735a3537078758316a30e2",
+        "android_client_info": {
+          "package_name": "com.example.islandgrill"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564114486983-re4sm44vil6brsttq876si1vsbp2s0o5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.islandgrill",
+            "certificate_hash": "85dff1df3fabb6cd7597444a23e73df3c96bf43f"
+          }
+        },
+        {
+          "client_id": "564114486983-pi0tcc3bd9bhqutr2968s5ndtv3f8iq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgzXIWxiGp_CgH82mP6KJL0ZGXKuP89Hk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564114486983-pi0tcc3bd9bhqutr2968s5ndtv3f8iq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

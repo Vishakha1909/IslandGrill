@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/bluettext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="186dp"
+        android:layout_marginLeft="186dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nameblue" />
+
+    <ImageView
+        android:id="@+id/blacktext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="210dp"
+        android:layout_marginRight="210dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bluettext"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nameblack" />
+
+    <ImageView
+        android:id="@+id/trunk"
+        android:layout_width="169dp"
+        android:layout_height="410dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="350dp"
+        android:scaleX="-1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bluettext"
+        app:srcCompat="@drawable/brown" />
+
+    <ImageView
+        android:id="@+id/leaf1"
+        android:layout_width="81dp"
+        android:layout_height="154dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="15dp"
+        android:rotation="120"
+        android:rotationX="0"
+        android:rotationY="0"
+        app:layout_constraintBottom_toTopOf="@+id/trunk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/leaf3"
+        app:layout_constraintTop_toBottomOf="@+id/bluettext"
+        app:srcCompat="@drawable/leaf3" />
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginRight="180dp"
+        android:background="@drawable/blueround"
+        android:onClick="login_fun"
+        android:text="LOGIN"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bluettext" />
+
+    <Button
+        android:id="@+id/signupbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginRight="176dp"
+        android:background="@drawable/blueround"
+        android:onClick="signup"
+        android:text="SIGNUP"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginbutton" />
+
+    <ImageView
+        android:id="@+id/leaf2"
+        android:layout_width="89dp"
+        android:layout_height="166dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginLeft="256dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginBottom="220dp"
+        android:rotation="15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blacktext"
+        app:srcCompat="@drawable/leaf1" />
+
+    <ImageView
+        android:id="@+id/leaf5"
+        android:layout_width="89dp"
+        android:layout_height="166dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="300dp"
+        android:rotation="250"
+        android:scaleX="-1"
+        app:layout_constraintBottom_toTopOf="@+id/leaf1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/leaf3"
+        app:layout_constraintTop_toBottomOf="@+id/bluettext"
+        app:srcCompat="@drawable/leaf1" />
+
+    <ImageView
+        android:id="@+id/leaf3"
+        android:layout_width="48dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginBottom="220dp"
+        android:rotation="350"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/leaf2"
+        app:layout_constraintTop_toBottomOf="@+id/leaf1"
+        app:srcCompat="@drawable/leaf2" />
+
+    <ImageView
+        android:id="@+id/leaf4"
+        android:layout_width="83dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="80dp"
+        android:rotation="280"
+        android:scaleX="-1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bluettext"
+        app:srcCompat="@drawable/leaf3" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="534dp"
+        android:layout_height="279dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/trunk"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signupbutton"
+        app:srcCompat="@drawable/sand1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
